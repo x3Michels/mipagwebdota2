@@ -30,7 +30,7 @@ ul{
 header{
     width: 100%;
     height: 100px;
-    background: url(../assets/background/dota2header.png);
+    background: url(./assets/background/dota2header.png);
     background-position: center;
     position: absolute;
     top: 0;
@@ -38,7 +38,7 @@ header{
 }
 #myVideo1{
 
-    background: url(../assets/background/fondogeneral.gif);
+    background: url(./assets/background/fondogeneral.gif);
     background-size: cover;
     width: 100%;
     height: 100%;
