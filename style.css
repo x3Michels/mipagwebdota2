@@ -1,4 +1,3 @@
-
 *{
     border: 0;
     margin: 0;
@@ -34,7 +33,36 @@ header{
     background-position: center;
     position: absolute;
     top: 0;
-
+}
+.nav-link{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+    
+.nav-link::before,
+.nav-link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e65454;
+    transform: scaleX(0);
+    transition: transform .25s;
+}
+.nav-link::before{
+    bottom: -3px;
+    transform-origin: left;
+}
+.nav-link::after{
+    bottom: -3px;
+    transform-origin: right;
+}
+.nav-link:hover::before,
+.nav-link:hover::after{
+    transform: scaleX(1);
 }
 #myVideo1{
 
